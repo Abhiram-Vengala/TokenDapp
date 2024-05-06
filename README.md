@@ -12,7 +12,6 @@ MORPH_TESTNET_URL = "https://rpc-testnet.morphl2.io"
 PRIVATE_KEY = <Your Account's Private Key>
 ```
 
-
 Try running the following tasks:
 
 ```shell
@@ -24,4 +23,9 @@ paste that contract address at contract address in App.tsx file present at front
 ```
 let contractAddres = <contract address>
 ```
+Now , cd into front_face and run 
+```
+npm run
+```
+Now start exploring the app .
 
