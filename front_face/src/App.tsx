@@ -1,9 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import MyToken from "./artifacts/contracts/MyToken.sol/MyToken.json";
-import logo from './logo.svg';
 import './App.css';
 import { Contract, ethers } from 'ethers';
-import Marquee from 'react-fast-marquee';
 import Token from "./components/Token";
 
 
@@ -36,7 +34,7 @@ function App() {
         console.log(Addr);
         setAddress(Addr);
 
-        let contractAddres = "0x2608d1Cd9dC94C3Aa8cA2776e3996fd6Cf9C0605";
+        let contractAddres = "0x00f0b10f3702198A6eE75FaE77CC5bb208a532Ba";
 
         const contract = new ethers.Contract(contractAddres,MyToken.abi,signer);
 
