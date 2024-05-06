@@ -1,4 +1,4 @@
-# Sample Hardhat Project
+# Token Dapp project
 
 This project demonstrates a basic ERC20 token deploymenyt and sending Tokens . To deply token first go to MyToken.sol file present in contracts folder .
 paste your wallet address in below manner .
